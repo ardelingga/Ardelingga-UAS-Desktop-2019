@@ -141,6 +141,7 @@ public class Login extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(null, "Login Gagal");
                 txtUsername.setText("");
                 txtPassword.setText("");
+                
                 txtUsername.requestFocus();
             }
         }else{

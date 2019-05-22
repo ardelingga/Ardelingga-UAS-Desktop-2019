@@ -203,6 +203,14 @@ public class InputTransaksi extends javax.swing.JFrame {
         this.dispose();
         HasilTransaksi hasilTransaksi = new HasilTransaksi();
         hasilTransaksi.setVisible(true);
+        
+        hasilTransaksi.lblNamaBarang.setText(cbNamaBarang.getSelectedItem().toString());
+        hasilTransaksi.lblTanggal.setText(txtTanggal.getText());
+        hasilTransaksi.lblHarga.setText(txtHarga.getText());
+        hasilTransaksi.lblJumlah.setText(txtJumlah.getText());
+        hasilTransaksi.lblTotal.setText(txtTotal.getText());
+        
+       
     }//GEN-LAST:event_btnSubmitActionPerformed
 
     private void btnCancleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCancleActionPerformed

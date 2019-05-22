@@ -143,7 +143,7 @@ public class HasilTransaksi extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        
+       
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
@@ -191,10 +191,10 @@ public class HasilTransaksi extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JLabel lblHarga;
-    private javax.swing.JLabel lblJumlah;
-    private javax.swing.JLabel lblNamaBarang;
-    private javax.swing.JLabel lblTanggal;
-    private javax.swing.JLabel lblTotal;
+    public javax.swing.JLabel lblHarga;
+    public javax.swing.JLabel lblJumlah;
+    public javax.swing.JLabel lblNamaBarang;
+    public javax.swing.JLabel lblTanggal;
+    public javax.swing.JLabel lblTotal;
     // End of variables declaration//GEN-END:variables
 }
